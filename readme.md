@@ -47,3 +47,15 @@ Solução com Laravel: Plataforma com painel para professores, alunos e secretar
 Problema real: Times pequenos não têm ferramentas eficientes de organização.
 
 Solução com Laravel: Ferramenta tipo Trello ou Asana, com quadros, tarefas, prazos, checklists e comentários.
+
+
+composer create-project laravel/laravel sistema-agendamento-barbearia-salao
+composer create-project laravel/laravel plataforma-de-cursos-online
+composer create-project laravel/laravel sistema-de-votacao-de-enquentes-online
+composer create-project laravel/laravel controle-financeiro
+composer create-project laravel/laravel help-desk
+composer create-project laravel/laravel sistema-agendamento
+composer create-project laravel/laravel portal-de-noticias
+composer create-project laravel/laravel plataforma-freelancer
+composer create-project laravel/laravel sistema-interno-escola-faculdade
+composer create-project laravel/laravel gestao-de-projetos
