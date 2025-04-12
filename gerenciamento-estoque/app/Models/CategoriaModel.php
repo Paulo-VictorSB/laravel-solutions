@@ -11,4 +11,9 @@ class CategoriaModel extends Model
     protected $fillable = [
         'nome'
     ];
+
+    public function categoria()
+    {
+        return $this->belongsTo(CategoriaModel::class);
+    }
 }
