@@ -12,8 +12,8 @@ class CategoriaModel extends Model
         'nome'
     ];
 
-    public function categoria()
+    public function produto()
     {
-        return $this->belongsTo(CategoriaModel::class);
+        return $this->hasMany(CategoriaModel::class, 'id_categoria');
     }
 }
